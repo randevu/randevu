@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randevu.Mvc", "Randevu.Mvc\Randevu.Mvc.csproj", "{2D676B88-190B-4F43-80BB-74F99775E32E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randevu.Tests", "Randevu.Tests\Randevu.Tests.csproj", "{B2651A9D-DB18-454E-A76E-3DBCD1BB3FB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{2D676B88-190B-4F43-80BB-74F99775E32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D676B88-190B-4F43-80BB-74F99775E32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D676B88-190B-4F43-80BB-74F99775E32E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2651A9D-DB18-454E-A76E-3DBCD1BB3FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2651A9D-DB18-454E-A76E-3DBCD1BB3FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2651A9D-DB18-454E-A76E-3DBCD1BB3FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2651A9D-DB18-454E-A76E-3DBCD1BB3FB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
