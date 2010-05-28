@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
 
 namespace Randevu.Mvc
@@ -10,7 +6,7 @@ namespace Randevu.Mvc
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
 
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : Ninject.Web.Mvc.NinjectHttpApplication
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
@@ -24,11 +20,16 @@ namespace Randevu.Mvc
 
         }
 
-        protected void Application_Start()
+        protected override void OnApplicationStarted()
         {
             AreaRegistration.RegisterAllAreas();
 
             RegisterRoutes(RouteTable.Routes);
+        }
+
+        protected override Ninject.IKernel CreateKernel()
+        {
+            return new Ninject.StandardKernel(new RandevuNinjectModule());
         }
     }
 }
