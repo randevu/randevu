@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randevu.Mvc", "Randevu.Mvc\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randevu.Tests", "Randevu.Tests\Randevu.Tests.csproj", "{B2651A9D-DB18-454E-A76E-3DBCD1BB3FB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randevu.Migrations.SQLite", "Randevu.Migrations.SQLite\Randevu.Migrations.SQLite.csproj", "{B6FDBE57-86CE-4447-BA1A-A4622E7B146E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{B2651A9D-DB18-454E-A76E-3DBCD1BB3FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2651A9D-DB18-454E-A76E-3DBCD1BB3FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2651A9D-DB18-454E-A76E-3DBCD1BB3FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FDBE57-86CE-4447-BA1A-A4622E7B146E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FDBE57-86CE-4447-BA1A-A4622E7B146E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FDBE57-86CE-4447-BA1A-A4622E7B146E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FDBE57-86CE-4447-BA1A-A4622E7B146E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
