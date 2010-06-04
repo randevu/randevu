@@ -22,3 +22,4 @@ Thumbs.db
 
 # Randevu Specific excludes
 *.min.js
+src/Randevu.Mvc/App_Data/randevu.db
