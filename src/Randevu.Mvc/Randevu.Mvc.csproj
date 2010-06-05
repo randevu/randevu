@@ -78,6 +78,11 @@
     <Compile Include="RandevuNinjectModule.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\sqlite\sql.sql">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sql.tt</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Web.config" />
@@ -103,6 +108,15 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Data\sqlite\sql.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>sql.sql</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
