@@ -38,10 +38,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="xunit">
-      <HintPath>..\..\libs\xunit.net-1.5\xunit.dll</HintPath>
+      <HintPath>..\..\libs\xunit-1.6\xunit.dll</HintPath>
     </Reference>
     <Reference Include="xunit.extensions">
-      <HintPath>..\..\libs\xunit.net-1.5\xunit.extensions.dll</HintPath>
+      <HintPath>..\..\libs\xunit-1.6\xunit.extensions.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
