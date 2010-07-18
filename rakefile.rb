@@ -1,9 +1,15 @@
 require 'albacore'
 
-task :default => [:build]
+task :default => ['randevu:build']
 
-msbuild :build do |msb|
-	msb.solution = "src/Randevu.sln"
-	msb.targets :clean, :build
-	msb.properties :configuration => :release
+namespace :randevu do
+
+	msbuild :build do |msb|
+		msb.solution = "src/Randevu.sln"
+		msb.targets :clean, :build
+		msb.properties :configuration => :release
+	end
+	
 end
+
+
